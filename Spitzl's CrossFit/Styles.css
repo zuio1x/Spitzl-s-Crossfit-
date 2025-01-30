@@ -1,0 +1,199 @@
+/* Allgemeine Stile */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: #A10015;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #A10015; 
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+/* Header und Navigation */
+header {
+  background-color: #A10015;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #FFAA00; /* Orange als sportlicher Akzent */
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  background-color: #A10015;
+}
+hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFAA00;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FFAA00; /* Orange für Energie */
+  color: #FFFFFF;
+}
+
+/* Kurskarten */
+.kurse {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.kurs-karte {
+  background-color: #FFAA00; /* Orange für Power und Action */
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+}
+
+.kurs-karte img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #FF5733;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #A10015; 
+}
+
+footer a:hover {
+  color: #FFFFFF;
+}
+
+/* Impressum & Datenschutz*/
+.impressum {
+  background-color: #A10015; /* Sportliches Orange */
+  color: #FFAA00; /* Dunkelblau für besseren Kontrast und Lesbarkeit */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+/* Google Maps Hintergrund */
+.map-container {
+  width: 100%;
+  height: 300px; /* Höhe des Containers für das Hintergrundbild */
+  background-image: url('images/map.jpeg'); /* Dein Bild als Hintergrund */
+  background-size: cover; /* Das Bild wird so skaliert, dass es den gesamten Bereich abdeckt */
+  background-position: center; /* Das Bild bleibt zentriert */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px; /* Abgerundete Ecken für das Hintergrundbild */
+  text-align: center;
+}
+
+.map-container a {
+  font-size: 1.2rem;
+  color: #FFFFFF; /* Weiß für den Text */
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Halbtransparentes Schwarz für den Hintergrund des Textes */
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.map-container a:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Dunklerer Hover-Effekt */
+}
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.trainer {
+  background-color: #FFAA00; /* Sportliches Orange */
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 15px;
+  width: 250px; /* Breite für das Trainer-Kästchen */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Schatten für Tiefe */
+  transition: transform 0.3s ease;
+}
+
+.trainer:hover {
+  transform: translateY(-10px); /* Hover-Effekt, um das Element anzuheben */
+}
+
+/* Bild für den Trainer */
+.trainer img {
+  width: 100%;
+  height: 200px; /* Feste Höhe für einheitliche Bildgröße */
+  object-fit: cover; /* Bild wird zugeschnitten, um den Bereich zu füllen */
+  border-radius: 50%; /* Rundes Bild */
+  margin-bottom: 15px;
+}
+
+.trainer h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #003366; /* Dunkelblau für den Namen */
+}
+
+.trainer p {
+  font-size: 1rem;
+  color: #FFFFFF; /* Weiß für den Text */
+}
+}
